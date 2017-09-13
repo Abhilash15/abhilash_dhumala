@@ -48,7 +48,10 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void addLast(Student student) {
+	public ststic void addLastStudent (){
+		Scanner sc = new scanner(System.in);
+		System.out.println("student details");
+		ViewStudents();
 		// Add your implementation here
 	}
 
@@ -63,8 +66,8 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void remove(Student student) {
-		// Add your implementation here
+	public static void removeStudent() {
+		Scanner sc = new scanner()
 	}
 
 	@Override
